@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.flex{
+  display: inline-flex;
+  width: 100%;
+}
+.w-50{
+  width: 50%;
+}
+.text-center{
+  text-align:center;
+}
+.text-right{
+  text-align:right;
+}
+table.wborder{
+  width: 100%;
+  border-collapse: collapse;
+}
+table.wborder>tbody>tr, table.wborder>tbody>tr>td{
+  border:1px solid;
+}
+p{
+  margin:unset;
+}
+#uni_modal .modal-footer{
+  display: none
+}
+#uni_modal .modal-footer.display{
+  display: block
+}
+.border-gradien-alert{
+  border-image: linear-gradient(to right, red , yellow) !important;
+}
+.border-alert th, 
+.border-alert td {
+  animation: blink 200ms infinite alternate;
+}
+
+@keyframes blink {
+  from {
+    border-color: white;
+  }
+  to {
+    border-color: red;
+  background: #ff00002b;
+  }
+}
+.vr-dot{
+  margin: 20px;
+  border:1px dashed black;
+  z-index: 99;
+}
